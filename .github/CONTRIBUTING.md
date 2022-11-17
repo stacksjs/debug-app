@@ -92,6 +92,7 @@ pnpm stacks --help # view help menu
 
 pnpm stacks dev # starts one of the dev servers (components, functions, pages, or docs)
 pnpm stacks dev:components # starts local playground dev server
+pnpm stacks dev:desktop # starts local Desktop dev server
 pnpm stacks dev:pages # starts local playground pages dev server
 pnpm stacks dev:functions # stubs local the functions
 pnpm stacks dev:docs # starts local docs dev server

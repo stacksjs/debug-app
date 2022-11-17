@@ -15,8 +15,7 @@ npx stacks new hello-world
 cd hello-world
 
 pnpm i # install deps for all packages
-pnpm dev # stubs the packages for local use
-pnpm dev:vite-vue # starts the dev server
+pnpm dev:components # starts the dev server
 pnpm build # builds the packages for production-ready use
 ```
 

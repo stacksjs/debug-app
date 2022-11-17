@@ -122,6 +122,7 @@ stacks update:all # update Node, package manager, framework, dependencies
 
 stacks dev # start one of the dev servers (components, functions, pages, or docs)
 stacks dev:components # start local playground dev server
+stacks dev:desktop # start local Desktop dev server
 stacks dev:pages # start local playground pages dev server
 stacks dev:functions # stub local the functions
 stacks dev:docs # start local docs dev server

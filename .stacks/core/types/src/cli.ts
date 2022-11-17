@@ -86,7 +86,7 @@ export type CreateOptions = {
   [key in CreateStringOption]: string
 } & CliOptions
 
-export type DevOption = 'components' | 'docs' | 'pages' | 'functions' | 'all'
+export type DevOption = 'components' | 'docs' | 'desktop' | 'pages' | 'functions' | 'all'
 export type DevOptions = {
   [key in DevOption]: boolean;
 } & CliOptions
@@ -150,6 +150,7 @@ export const enum NpmScript {
   Clean = 'clean',
   Dev = 'dev',
   DevComponents = 'dev:components',
+  DevDesktop = 'dev:desktop',
   DevDocs = 'dev:docs',
   DevPages = 'dev:pages',
   DevFunctions = 'dev:functions',

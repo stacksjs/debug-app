@@ -41,6 +41,7 @@
     "dev": "pnpm buddy dev",
     "dev:components": "pnpm buddy dev:components",
     "dev:docs": "pnpm buddy dev:docs",
+    "dev:desktop": "pnpm buddy dev:desktop",
     "dev:pages": "pnpm buddy dev:pages",
     "dev:functions": "pnpm buddy dev:functions // todo: opens the auto-generated web server of functions",
     "development": "pnpm buddy dev",

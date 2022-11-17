@@ -80,6 +80,7 @@
     "dev": "pnpm stacks dev",
     "dev:components": "npx vite serve ./components/vue -c ./core/build/src/vue-components.ts",
     "dev:core": "pnpm --filter './core/**' dev",
+    "dev:desktop": "pnpm --filter './core/desktop' dev",
     "dev:docs": "vitepress dev ../apps/docs",
     "dev:pages": "nitro dev",
     "dev:functions": "pnpm stacks dev:functions",
