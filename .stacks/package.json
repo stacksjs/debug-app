@@ -116,6 +116,8 @@
     "lint": "eslint ..",
     "lint:fix": "eslint .. --fix",
     "serve": "pnpm stacks serve",
+    "serve:native": "tauri dev",
+    "serve:build": "vite build -c ./core/build/vue-components.ts && tauri build",
     "serve:pages": "pnpm run dev:pages",
     "serve:functions": "pnpm run dev:functions",
     "make": "pnpm stacks make",
@@ -149,6 +151,11 @@
   },
   "web-types": "./web-types.json",
   "dependencies": {
-    "@stacksjs/buddy": "workspace:*"
+    "@stacksjs/buddy": "workspace:*",
+    "@tauri-apps/api": "^1.2.0",
+    "unified-network": "^0.5.0"
+  },
+  "devDependencies": {
+    "@tauri-apps/cli": "^1.2.0"
   }
 }

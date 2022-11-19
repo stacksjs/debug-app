@@ -11,8 +11,15 @@ importers:
   .stacks:
     specifiers:
       '@stacksjs/buddy': workspace:*
+      '@tauri-apps/api': ^1.2.0
+      '@tauri-apps/cli': ^1.2.0
+      unified-network: ^0.5.0
     dependencies:
       '@stacksjs/buddy': link:buddy
+      '@tauri-apps/api': 1.2.0
+      unified-network: 0.5.0
+    devDependencies:
+      '@tauri-apps/cli': 1.2.0
 
   .stacks/buddy:
     specifiers:
@@ -3594,6 +3601,108 @@ packages:
       magic-string: 0.25.9
       string.prototype.matchall: 4.0.8
     dev: false
+
+  /@tauri-apps/api/1.2.0:
+    resolution: {integrity: sha512-lsI54KI6HGf7VImuf/T9pnoejfgkNoXveP14pVV7XarrQ46rOejIVJLFqHI9sRReJMGdh2YuCoI3cc/yCWCsrw==}
+    engines: {node: '>= 14.6.0', npm: '>= 6.6.0', yarn: '>= 1.19.1'}
+    dev: false
+
+  /@tauri-apps/cli-darwin-arm64/1.2.0:
+    resolution: {integrity: sha512-f3LR2RvTU2ulxYdK9Nc3vKaSpDChu52pz0BMWNrSs3dxs4WTVioie98Ufz+GorifkUp3sYXcJte3HzX6wH/QxQ==}
+    engines: {node: '>= 10'}
+    cpu: [arm64]
+    os: [darwin]
+    requiresBuild: true
+    dev: true
+    optional: true
+
+  /@tauri-apps/cli-darwin-x64/1.2.0:
+    resolution: {integrity: sha512-m07QZaAZCtyobrjddfz/Rxf9GGutnBOpRMbNqVqCk0qKRJzHG1fIsLqkgZh6+qPv0zHpu7xi/FPcqTec72Cp8w==}
+    engines: {node: '>= 10'}
+    cpu: [x64]
+    os: [darwin]
+    requiresBuild: true
+    dev: true
+    optional: true
+
+  /@tauri-apps/cli-linux-arm-gnueabihf/1.2.0:
+    resolution: {integrity: sha512-Id9eF1JtthZRFVtXAAVtSlI3uMT8cJ7LYmCSIl3mAXEUeaPBxnUs1i9X6/J+2Ho3yLEuuOxJ7PaJd+4v8wnEeg==}
+    engines: {node: '>= 10'}
+    cpu: [arm]
+    os: [linux]
+    requiresBuild: true
+    dev: true
+    optional: true
+
+  /@tauri-apps/cli-linux-arm64-gnu/1.2.0:
+    resolution: {integrity: sha512-NtfPkkpeMPl+i/tB/Fc8ST2rKO2vV8int/RkOvNGLCkhWcl4sbzKBol7tc4q8c8h0X7FXDcF1l/EOuGsZUAA5Q==}
+    engines: {node: '>= 10'}
+    cpu: [arm64]
+    os: [linux]
+    requiresBuild: true
+    dev: true
+    optional: true
+
+  /@tauri-apps/cli-linux-arm64-musl/1.2.0:
+    resolution: {integrity: sha512-tz+mOOVsy/TMdq2WJVIJl/iwW3OCWCyD5Fls3fhyJ4XpLfjn4G+C+oU0awXD/0se0ko81aq4D+r8eDx6oBRi0A==}
+    engines: {node: '>= 10'}
+    cpu: [arm64]
+    os: [linux]
+    requiresBuild: true
+    dev: true
+    optional: true
+
+  /@tauri-apps/cli-linux-x64-gnu/1.2.0:
+    resolution: {integrity: sha512-FH/wU+OWZjRQvrq/oequScr72I84XgOuRuMEpt/GqGD341cBJ8ithpoyzuiKsvjS6K0qMyRFzy3eyhQ7gwX+4Q==}
+    engines: {node: '>= 10'}
+    cpu: [x64]
+    os: [linux]
+    requiresBuild: true
+    dev: true
+    optional: true
+
+  /@tauri-apps/cli-linux-x64-musl/1.2.0:
+    resolution: {integrity: sha512-nLg30aBT9fI83sjIqaGPN7twbtE5LJy2DbKzxIlw59F+GT8HBdiM/2mZdTLB3AQb52yVHuGB1TVtWDsl0JHqCA==}
+    engines: {node: '>= 10'}
+    cpu: [x64]
+    os: [linux]
+    requiresBuild: true
+    dev: true
+    optional: true
+
+  /@tauri-apps/cli-win32-ia32-msvc/1.2.0:
+    resolution: {integrity: sha512-eXtgIgY0fawgcOuUjH8Y6PxwPxbK87Zl9XmA7Q0m58T7pIz+gcbgvtH8Bb+liYHoRYItIhQxVm+ui7Y59rI7Cg==}
+    engines: {node: '>= 10'}
+    cpu: [ia32]
+    os: [win32]
+    requiresBuild: true
+    dev: true
+    optional: true
+
+  /@tauri-apps/cli-win32-x64-msvc/1.2.0:
+    resolution: {integrity: sha512-egyM66R05AIbkaUDptpHurFTIYp3VM4H5OrRd3O2b0oXf8SoiXiyrHbQsHVHHDYyytKmwkdNqjdy+Vev/Vq25Q==}
+    engines: {node: '>= 10'}
+    cpu: [x64]
+    os: [win32]
+    requiresBuild: true
+    dev: true
+    optional: true
+
+  /@tauri-apps/cli/1.2.0:
+    resolution: {integrity: sha512-DgUnk4p/atWHq2HUx9Vt+/LuRsx4iFlkzdZIUxtFWvpcZih2k0TzmHJbrhM1evh1/7a+SqiwDawmyf3Hz1HxXA==}
+    engines: {node: '>= 10'}
+    hasBin: true
+    optionalDependencies:
+      '@tauri-apps/cli-darwin-arm64': 1.2.0
+      '@tauri-apps/cli-darwin-x64': 1.2.0
+      '@tauri-apps/cli-linux-arm-gnueabihf': 1.2.0
+      '@tauri-apps/cli-linux-arm64-gnu': 1.2.0
+      '@tauri-apps/cli-linux-arm64-musl': 1.2.0
+      '@tauri-apps/cli-linux-x64-gnu': 1.2.0
+      '@tauri-apps/cli-linux-x64-musl': 1.2.0
+      '@tauri-apps/cli-win32-ia32-msvc': 1.2.0
+      '@tauri-apps/cli-win32-x64-msvc': 1.2.0
+    dev: true
 
   /@tootallnate/once/2.0.0:
     resolution: {integrity: sha512-XCuKFP5PS55gnMVu3dty8KPatLqUoy/ZYzDzAGCQ8JNFCkLXzmI7vNHCR+XpbZaMWQK/vQubr7PkYq8g470J/A==}
@@ -10736,6 +10845,10 @@ packages:
   /unicode-property-aliases-ecmascript/2.1.0:
     resolution: {integrity: sha512-6t3foTQI9qne+OZoVQB/8x8rk2k1eVy1gRXhV3oFQ5T6R1dqQ1xtin3XqSlx3+ATBkliTaR/hHyJBm+LVPNM8w==}
     engines: {node: '>=4'}
+    dev: false
+
+  /unified-network/0.5.0:
+    resolution: {integrity: sha512-OL1X6ZEcK0m2JuB1iWBvtt7bwEBptHgNTnG2O1M7UqMSnuKNCS6F2HJagjYvVJxoTMBNDSQo+Fy2VGHsgEM80Q==}
     dev: false
 
   /unimport/0.7.1:
