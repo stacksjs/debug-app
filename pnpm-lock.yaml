@@ -147,7 +147,7 @@ importers:
       '@stacksjs/server': workspace:*
       '@stacksjs/types': workspace:*
       '@stacksjs/utils': workspace:*
-      '@vitejs/plugin-vue': ^3.2.0
+      '@vitejs/plugin-vue': ^4.0.0
       markdown-it-link-attributes: ^4.0.1
       markdown-it-shiki: ^0.7.2
       mkdist: ^1.0.0
@@ -172,7 +172,7 @@ importers:
       '@stacksjs/server': link:../server
       '@stacksjs/types': link:../types
       '@stacksjs/utils': link:../utils
-      '@vitejs/plugin-vue': 3.2.0_vite@3.2.5+vue@3.2.45
+      '@vitejs/plugin-vue': 4.0.0_vite@3.2.5+vue@3.2.45
       markdown-it-link-attributes: 4.0.1
       markdown-it-shiki: 0.7.2
       unbuild: 1.0.2
@@ -4233,6 +4233,17 @@ packages:
     dependencies:
       vite: 3.2.5
       vue: 3.2.45
+
+  /@vitejs/plugin-vue/4.0.0_vite@3.2.5+vue@3.2.45:
+    resolution: {integrity: sha512-e0X4jErIxAB5oLtDqbHvHpJe/uWNkdpYV83AOG2xo2tEVSzCzewgJMtREZM30wXnM5ls90hxiOtAuVU6H5JgbA==}
+    engines: {node: ^14.18.0 || >=16.0.0}
+    peerDependencies:
+      vite: ^4.0.0
+      vue: ^3.2.25
+    dependencies:
+      vite: 3.2.5
+      vue: 3.2.45
+    dev: false
 
   /@vitest/coverage-istanbul/0.25.6:
     resolution: {integrity: sha512-tIthJLaXxEiRnx9NKKq0dVG0G3ZpPncYae8JYc2+vpYN57Ls0wJgb7larGkwS5pKLSK6K0O1rLrdLzzXFL28TA==}
