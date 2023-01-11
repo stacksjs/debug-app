@@ -2,7 +2,7 @@
   "name": "@stacksjs/utils",
   "type": "module",
   "version": "0.41.1",
-  "packageManager": "pnpm@7.18.1",
+  "packageManager": "pnpm@7.24.3",
   "description": "The Stacks helper functions.",
   "author": "Chris Breuer",
   "license": "MIT",
@@ -37,8 +37,8 @@
     "README.md"
   ],
   "engines": {
-    "node": ">=v18.12.1",
-    "pnpm": ">=7.18.1"
+    "node": ">=v18.13.0",
+    "pnpm": ">=7.24.3"
   },
   "scripts": {
     "build": "mkdist -d",
@@ -53,10 +53,10 @@
     "@stacksjs/path": "workspace:*",
     "@stacksjs/storage": "workspace:*",
     "@stacksjs/types": "workspace:*",
-    "@vueuse/core": "^9.6.0",
+    "@vueuse/core": "^9.10.0",
     "@vueuse/head": "^1.0.22",
-    "@vueuse/math": "^9.6.0",
-    "@vueuse/shared": "^9.6.0",
+    "@vueuse/math": "^9.10.0",
+    "@vueuse/shared": "^9.10.0",
     "defu": "^6.1.1",
     "detect-indent": "^7.0.1",
     "detect-newline": "^4.0.0",
@@ -68,7 +68,7 @@
     "throttle-debounce": "^5.0.0"
   },
   "devDependencies": {
-    "mkdist": "^1.0.0",
+    "mkdist": "^1.1.0",
     "typescript": "^4.9.4"
   }
 }
