@@ -2,7 +2,7 @@
   "name": "@stacksjs/x-ray",
   "type": "module",
   "version": "0.41.1",
-  "packageManager": "pnpm@7.18.1",
+  "packageManager": "pnpm@7.24.3",
   "description": "All you need to debug, log & analyze, easily.",
   "author": "Chris Breuer",
   "license": "MIT",
@@ -38,8 +38,8 @@
     "README.md"
   ],
   "engines": {
-    "node": ">=v18.12.1",
-    "pnpm": ">=7.18.1"
+    "node": ">=v18.13.0",
+    "pnpm": ">=7.24.3"
   },
   "scripts": {
     "build": "mkdist -d",
@@ -53,6 +53,6 @@
     "vue-ray": "^1.17.3"
   },
   "devDependencies": {
-    "mkdist": "^1.0.0"
+    "mkdist": "^1.1.0"
   }
 }
