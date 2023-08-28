@@ -3,7 +3,7 @@
   "type": "module",
   "version": "0.41.1",
   "private": "true",
-  "packageManager": "pnpm@7.18.1",
+  "packageManager": "pnpm@7.33.6",
   "description": "The Stacks framework.",
   "author": "Chris Breuer",
   "license": "MIT",
@@ -61,8 +61,8 @@
     "components.d.ts"
   ],
   "engines": {
-    "node": ">=v18.12.1",
-    "pnpm": ">=7.18.1"
+    "node": ">=v18.17.1",
+    "pnpm": ">=7.33.6"
   },
   "scripts": {
     "buddy": "esno ./buddy/src/cli.ts",
@@ -152,10 +152,10 @@
   "web-types": "./web-types.json",
   "dependencies": {
     "@stacksjs/buddy": "workspace:*",
-    "@tauri-apps/api": "^1.2.0",
-    "unified-network": "^0.6.2"
+    "@tauri-apps/api": "^1.4.0",
+    "unified-network": "^0.6.4"
   },
   "devDependencies": {
-    "@tauri-apps/cli": "^1.2.2"
+    "@tauri-apps/cli": "^1.4.0"
   }
 }
