@@ -2,7 +2,7 @@
   "name": "@stacksjs/router",
   "type": "module",
   "version": "0.41.1",
-  "packageManager": "pnpm@7.18.1",
+  "packageManager": "pnpm@7.33.6",
   "description": "The Stacks framework router.",
   "author": "Chris Breuer",
   "license": "MIT",
@@ -34,8 +34,8 @@
     "README.md"
   ],
   "engines": {
-    "node": ">=v18.12.1",
-    "pnpm": ">=7.18.1"
+    "node": ">=v18.17.1",
+    "pnpm": ">=7.33.6"
   },
   "scripts": {
     "build": "mkdist -d",
@@ -44,10 +44,10 @@
     "typecheck": "tsc --noEmit"
   },
   "peerDependencies": {
-    "vue-router": "^4.1.6"
+    "vue-router": "^4.2.4"
   },
   "devDependencies": {
-    "mkdist": "^1.0.0",
-    "typescript": "^4.9.4"
+    "mkdist": "^1.3.0",
+    "typescript": "^4.9.5"
   }
 }
