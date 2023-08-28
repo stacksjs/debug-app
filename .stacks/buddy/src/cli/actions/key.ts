@@ -1,5 +1,6 @@
 import { getRandomValues } from 'node:crypto'
 import { log, runCommand } from '@stacksjs/cli'
+
 // import { generateAppKey } from '@stacksjs/security'
 import type { CliOptions as KeyOptions } from '@stacksjs/types'
 import { ExitCode } from '@stacksjs/types'

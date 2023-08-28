@@ -22,6 +22,7 @@ Now, you can use it in your project:
 
 ```js
 import * as config from '@stacksjs/config'
+
 // or
 import { app, deploy, docs, git, hashing, library, services, ui } from '@stacksjs/config'
 ```

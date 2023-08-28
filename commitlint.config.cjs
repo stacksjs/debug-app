@@ -1,7 +1,8 @@
-const { readdirSync } = require('fs')
-const { resolve } = require('path')
+const { readdirSync } = require('node:fs')
+const { resolve } = require('node:path')
 const { paramCase } = require('change-case')
 const jiti = require('jiti')(__filename)
+
 const config = jiti('./config/git.ts')
 
 const toDelete = ['readme-md']
@@ -49,8 +50,8 @@ module.exports = {
     allowCustomIssuePrefixs: true,
     allowEmptyIssuePrefixs: true,
     confirmColorize: true,
-    maxHeaderLength: Infinity,
-    maxSubjectLength: Infinity,
+    maxHeaderLength: Number.POSITIVE_INFINITY,
+    maxSubjectLength: Number.POSITIVE_INFINITY,
     minSubjectLength: 0,
     scopeOverrides: undefined,
     defaultBody: '',
