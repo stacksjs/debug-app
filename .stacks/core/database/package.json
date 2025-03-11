@@ -48,7 +48,7 @@
     "typecheck": "tsc --noEmit"
   },
   "peerDependencies": {
-    "@prisma/client": "^4.7.1",
+    "@prisma/client": "^6.5.0",
     "@stacksjs/utils": "workspace:*",
     "vitest": "^0.25.6"
   },
