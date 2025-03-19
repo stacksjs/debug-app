@@ -1,3 +1,6 @@
+> [!NOTE]  
+> This project is evolutionizing into [`clarity`](https://github.com/stacksjs/clarity).
+
 ![Social Card of Stacks](.github/art/social.png)
 
 # Rapid App Development
